@@ -6,6 +6,7 @@ function brickCalculator(brick){
 
     }
     else if(brick <= 20){
+        
         var a = brick*12;
         var totalBrick = a*feet;
     
