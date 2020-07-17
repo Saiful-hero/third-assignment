@@ -1,19 +1,20 @@
 function brickCalculator(brick){
     const feet = 1000;
 
-    if (1 <= brick && 10 >= brick){
-    var result = 15*feet*brick;
+    if (brick <= 10){
+    var totalBrick = 15*feet*brick;
 
     }
-    else if(1 <= brick && 20 >= brick){
-        var first = 15*feet*10;
-        if()
+    else if(brick <= 20){
+        var a = brick*12;
+        var totalBrick = a*feet;
     
     }
     else{
-        
+        var b = brick*10;
+        var totalBrick = b*feet;
     }
- return result;
+ return totalBrick;
 }
-var output = brickCalculator(10);
+var output = brickCalculator(30);
 console.log(output);
